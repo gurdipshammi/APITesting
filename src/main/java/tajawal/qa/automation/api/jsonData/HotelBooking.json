@@ -1,0 +1,34 @@
+{
+  "dates": {
+    "checkin": "11-09-2019",
+    "checkout": "13-09-2019"
+  },
+  "destination": "paris",
+  "room": [
+    {
+      "guest": [
+        {
+          "type": "ADT"
+        },
+        {
+          "type": "ADT"
+        },
+        {
+          "type": "CHD",
+          "age": 3
+        }
+      ]
+    },
+    {
+      "guest": [
+        {
+          "type": "ADT"
+        },
+        {
+          "type": "ADT"
+        }
+      ]
+    }
+  ],
+  "placeId": "ChIJD7fiBh9u5kcRYJSMaMOCCwQ"
+}

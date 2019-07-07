@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="tajawal-api-automation" preserve-order="true"
+       verbose="2">
+
+    <test name="hotel-search-testing">
+        <classes>
+            <class name="tajawal.qa.automation.api.tests.hotelSearch">
+                <methods>
+                    <include name="hotelSearch"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="hotel-booking-testing">
+    <classes>
+        <class name="tajawal.qa.automation.api.tests.hotelSearch">
+            <methods>
+                <include name="hotelBooking"/>
+            </methods>
+        </class>
+    </classes>
+    </test>
+</suite>
